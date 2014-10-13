@@ -1,7 +1,7 @@
-plymouth-theme-ubuntu8
+plymouth-theme-ubuntu
 ======================
 
-A plymouth theme (boot progress) for ubuntu
+A plymouth theme (boot progress) for Ubuntu
 
 #Installation instructions
 ==========================
