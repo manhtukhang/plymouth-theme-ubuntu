@@ -1,11 +1,3 @@
-#----------------------------------------------------------------------
-# Author	: Virpara
-# Description	: Plymouth Theme with ubuntu fade and animation
-# Date		: 6-Jun-2012
-# Website	: http://virpara.blogspot.com
-# 		  http://askubuntu.com/users/40166/virpara
-#----------------------------------------------------------------------
-
 Window.SetBackgroundTopColor(0.16, 0.00, 0.12);
 Window.SetBackgroundBottomColor(0.16, 0.00, 0.12);
 

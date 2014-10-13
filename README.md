@@ -47,10 +47,10 @@ sudo update-initramfs -u -k all
 In Grub press C and enter ``vbeinfo``. It will show supported resolutions    
 Boot Ubuntu and run terminal:    
 ```bash
-sudo apt-get install -y vd86
+sudo apt-get install -y v86d
 sudo gedit /etc/default/grub
 ```
-After line ``#GRUB_GFXMODE=640x480`` write ``GRUB_GFXPAYLOAD_LINUX=1920x1080-32`` (here your supported resolution)    
+After line ``#GRUB_GFXMODE=640x480`` write ``GRUB_GFXPAYLOAD_LINUX=1366x768-32`` (here your supported resolution)    
 Next in terminal:
 ```bash
 echo "FRAMEBUFFER=y" | sudo tee -a /etc/initramfs-tools/conf.d/splash
